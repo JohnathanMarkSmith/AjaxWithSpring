@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/java/!svn/ver/336/SpringUsingAjax/trunk/WebContent/WEB-INF
+END
+app-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/java/!svn/ver/336/SpringUsingAjax/trunk/WebContent/WEB-INF/app-config.xml
+END
+messages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/java/!svn/ver/336/SpringUsingAjax/trunk/WebContent/WEB-INF/messages.properties
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/java/!svn/ver/336/SpringUsingAjax/trunk/WebContent/WEB-INF/web.xml
+END
