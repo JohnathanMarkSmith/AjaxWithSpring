@@ -10,17 +10,17 @@
         function doAjaxPost() {
             // get the form values
             var name = $('#name').val();
-            var education = $('#education').val();
+            var phone = $('#phone').val();
 
             $.ajax({
                 type: "POST",
                 url: "/AjaxWithSpring/AddUser.html",
-                data: "name=" + name + "&education=" + education,
+                data: "name=" + name + "&phone=" + phone,
                 success: function (response) {
                     // we have the response
                     $('#info').html(response);
                     $('#name').val('');
-                    $('#education').val('');
+                    $('#phone').val('');
                 },
                 error: function (e) {
                     alert('Error: ' + e);
@@ -34,11 +34,11 @@
 <table>
     <tr>
         <td>Enter your name :</td>
-        <td><input type="text" id="name"><br/></td>
+        <td><input type="text" id="name" class="Name required" required="required" ><br/></td>
     </tr>
     <tr>
-        <td>Education :</td>
-        <td><input type="text" id="education"><br/></td>
+        <td>Phone Number :</td>
+        <td><input type="text" id="phone" class="Name required" required="required" ><br/></td>
     </tr>
     <tr>
         <td colspan="2"><input type="button" value="Add Users" onclick="doAjaxPost()"><br/></td>

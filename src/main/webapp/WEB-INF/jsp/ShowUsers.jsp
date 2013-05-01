@@ -11,8 +11,8 @@
 The following are the users added in the list :<br>
 <ul>
     <c:forEach items="${Users}" var="user">
-    <li>Name : <c:out value="${user.name}"/>; Education :
-            <c:out value="${user.education}"/>
+    <li>Name : <c:out value="${user.name}"/>; Phone Number :
+            <c:out value="${user.phone}"/>
         </c:forEach>
 </ul>
 </body>
