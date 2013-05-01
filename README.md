@@ -12,7 +12,7 @@ checkout the project from github.
     cd AjaxWithSpring
     mvn tomcat7:run
 
-Then you need to point your web browser to http://localhost:8080/SaveNames/
+Then you need to point your web browser to http://localhost:8080/AjaxWithSpring/
 
 This Project is using Java, Spring, AJax, Maven and Github.
 
